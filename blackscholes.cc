@@ -33,7 +33,7 @@ double d2(double s, double x, double r, double t, double sigma){
 	return ((log(s/x) + (rate + v*v/2)*days) / (v * sqrt(days))) - (v * sqrt(days));
 }
 
-int main(){
+int main(int argc, char **argv){
 	double stock_price = 210.59;
 	double excersise_price = 205;
 	double risk_free_interest = 0.2175; // also entered in percentage
@@ -45,5 +45,4 @@ int main(){
 
 	printf("%f\n", d1(stock_price, excersise_price, risk_free_interest, days, sigma));
 	printf("%f\n", d2(stock_price, excersise_price, risk_free_interest, days, sigma));
-	printf("%f\n", Normal());
 }
