@@ -2,7 +2,12 @@
 
 //still in progress
 
-// double Normal(double x){
+double Norm(double z){
+	double normaldis = 1 / ( sqrt(2 * Pi) * exp(-pow(z,2)/2));
+	return normaldis;
+}
+
+// double NormalDist(double x){
 	
 // 	double l,k,w;
 
