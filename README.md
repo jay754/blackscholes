@@ -13,8 +13,6 @@ Building, Running and Cleaning up
 
 ===========
 
-Refenrences
-
-===========
+<h3> References </h3>
 
 <a href="http://vbadeveloper.net/optionpricerblackscholescsharp.pdf"> BlackScholes in c# </a>
